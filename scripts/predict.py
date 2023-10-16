@@ -37,6 +37,6 @@ with open('model.pkl', 'rb') as f:
 logger.info("making predictions")
 preds = m.predict(Xts)
 
-logger.info("saving predictions")
+logger.info("saving predictions to {predictions_file}")
 pd.DataFrame(preds.reshape(-1,1), columns=['preds']).to_csv(predictions_file, index=False)
 
