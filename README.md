@@ -8,5 +8,6 @@
 
 ## Suggestion
 
+- inspect the data files generated
 - inspect the scripts under `scripts`
 - run the scripts from the command line
